@@ -1,0 +1,109 @@
+/* ---------- GLOBAL STYLES ---------- */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f6f9fc;
+  color: #333;
+}
+.hidden { display: none; }
+
+/* ---------- LOGIN SCREEN ---------- */
+.login-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(120deg, #00796b, #004d40);
+  color: white;
+}
+.login-box {
+  background-color: white;
+  color: #333;
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 300px;
+}
+.login-box h2 { color: #00796b; }
+.login-box input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.login-box button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-box button:hover { background-color: #004d40; }
+#auth-error { color: red; margin-top: 10px; }
+
+/* ---------- HEADER ---------- */
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover { text-decoration: underline; }
+
+/* ---------- HERO ---------- */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('https://images.unsplash.com/photo-1555375771-14b2b2881d40?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.help-btn {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.help-btn:hover { background-color: #b71c1c; }
+
+/* ---------- SECTIONS ---------- */
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+.map {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #00796b;
+}
+.edu-card {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
